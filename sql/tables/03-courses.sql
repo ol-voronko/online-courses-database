@@ -28,4 +28,7 @@ INSERT INTO courses VALUES
 ('ENG101','Англійська для IT-спеціалістів (рівень B1–B2)',12000,5,12,7),
 ('ENG102','Ділова англійська для переговорів та листування',8400,5,8,7);
 
-SELECT * FROM courses;
+
+UPDATE courses
+SET price=17000
+WHERE course_code='PY101';
